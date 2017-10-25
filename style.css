@@ -5,13 +5,12 @@ body{
 	display: flex;
 	background: url(assets/ft-header.jpg) center ;
 	background-size: cover;
-	height: 250px;
+	height: 400px;
 	width: 100%;
 	margin-bottom: 5px;
 	justify-content:space-between;
+	align-content: center;
 	align-items: center;
-	align-content: space-around;
-
 }
 .menu{
 	display: flex;
@@ -23,7 +22,8 @@ body{
 }
 .menu-item{
 	font-size: 30px;
-	padding: 10px;
+	padding: 10px 30px ;
+	margin-left: 10px;
 	text-decoration: none;
 	color:#000;
 	background-color: rgba(255,255,255,0.75);
@@ -31,8 +31,8 @@ body{
 }
 
 .logopng{
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 }
 .rodape{
 	background:url(fotos/foto02.jpg) center;
