@@ -34,6 +34,16 @@ body{
 	width: 200px;
 	height: 200px;
 }
+.sessaomaster{
+	display: flex;
+	justify-content: center;
+}
+.sessao1{
+
+}
+.sessao2{
+
+}
 .rodape{
 	background:url(fotos/foto02.jpg) center;
 	background-size: cover;
