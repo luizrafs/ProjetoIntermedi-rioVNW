@@ -3,6 +3,8 @@
 body{
 	background-color: #000;
 	margin: 0;
+
+/*HOME*/
 }
 .cabecalho{
 	display: flex;
@@ -10,7 +12,7 @@ body{
 	background-size: cover;
 	height: 400px;
 	width: 100%;
-	margin-bottom: 5px;
+	margin-bottom: 60px;
 	justify-content:space-between;
 	align-content: flex-start;
 	align-items: flex-start;
@@ -27,6 +29,8 @@ body{
 }
 .menu-item{
 	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 	padding: 10px 30px ;
 	margin-left: 10px;
 	text-decoration: none;
@@ -51,18 +55,26 @@ body{
 .ft01{
 	width: 48%;
 }
+.ft02{
+	margin: 0 15px 15px 15px;
+}
+.ft03{
+	margin: 5% 15px 15px 15px;;
+}
 .sessao2{
 	width: 48%;
 }
 .sessao2 img{
 	width: 100%;
-	padding: 10px;
+	padding: 0px;
 }
 .container-h1{
 	color: #fff;
 	font-size: 40px;
 	width: 80%; 
 	margin-left: 40%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 }
 .container-texto{
 	position:absolute;
@@ -70,7 +82,7 @@ body{
 	justify-content: flex-end;
 	align-items: flex-end; 
 	width: 60%;
-	height: 500px;
+	height: 700px;
 	border: solid 5px #fff;
 }
 .containerTexto-a{
@@ -84,7 +96,6 @@ body{
 	margin:0;
 	display: flex;
 	flex-flow: row wrap;
-	/*align-content: flex-start;*/
 	align-items: flex-start;
 	justify-content:space-between;
 	background:url(fotos/foto02.jpg) center;
@@ -96,6 +107,8 @@ body{
 	margin-left: 20px;
 	font-size: 30px;
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 }
 .rodape-social{
 	margin-right: 20px;
@@ -108,17 +121,98 @@ body{
 
 .rodape-p2{
 	margin: 0;
+	
 	align-self: flex-end;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 	height: 50px;
 	width: 100%;
+	
 	background: rgba(255,255,255,0.75);
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.rodape-p2 span{
+	font-weight: 700;
 }
 .rodape2{
 	display: flex;
 	justify-content: center;
 	height: 50px;
 	background: rgba(255,255,255,0.9);
+}
+/*CONTATOS*/
+.cabecalhoContatos{
+	background:#8b0000;
+	margin: 0;
+}
+.principal{
+	display: flex;
+	background:#8b0000;
+	justify-content: space-around;
+}
+.container-loc{
+	color: #fff;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.logo-loc{
+	height: 100px;
+	width:100px;
+}
+.container-h1{
+	display: flex;
+	justify-content: center;
+	margin-left: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+
+}
+.container-form{
+	color:#fff;
+	font-size: 35px;
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.containerForm-item{
+	height: 30px;
+	width: 400px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.form-msg{
+	height: 200px;
+}
+.containerForm-enviar{
+	display: flex;
+	justify-content: flex-end;
+}
+.contatos-rodape{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background:#8b0000;
+	color: #fff;
+}
+.contatosRodape-p{
+	font-size: 45px;
+}
+.logo-contatos{
+	width: 130px;
+	height: 130px;
+}
+.logo-contatosps{
+	width: 300px;
+	height: 100px;
+	margin-right: 40px;
+}
+.containerRodape{
+
 }
