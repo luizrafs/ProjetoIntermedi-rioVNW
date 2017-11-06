@@ -17,13 +17,20 @@ body{
 	align-content: flex-start;
 	align-items: flex-start;
 }
+.container-menu{
+	margin-top: 60px; 
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-end;
+}
 .cabecalho-menu{
 	margin-top: 90px;
 	margin-right: 50px;
 	display: flex;
+	flex-flow: row wrap;
 	width: 6 00px;
 	height: 50px;
-	justify-content: center;
+	justify-content: flex-end;
 	align-content: center;
 	align-items: center;	
 }
@@ -32,7 +39,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	padding: 10px 30px ;
-	margin-left: 10px;
+	margin:  5px 10px;
 	text-decoration: none;
 	color:#000;
 	background-color: rgba(255,255,255,0.75);
@@ -56,10 +63,10 @@ body{
 	width: 48%;
 }
 .ft02{
-	margin: 0 15px 15px 15px;
+	margin: 0 0px 15px 15px;
 }
 .ft03{
-	margin: 5% 15px 15px 15px;;
+	margin: 5% 0px 15px 15px;;
 }
 .sessao2{
 	width: 48%;
@@ -82,7 +89,7 @@ body{
 	justify-content: flex-end;
 	align-items: flex-end; 
 	width: 60%;
-	height: 700px;
+	height: 500px;
 	border: solid 5px #fff;
 }
 .containerTexto-a{
@@ -100,18 +107,22 @@ body{
 	justify-content:space-between;
 	background:url(fotos/foto02.jpg) center;
 	background-size: cover;
-	height: 250px;
+	height: 350px;
 }
 .rodape-p{
-	width: 60%;
-	margin-left: 20px;
+	margin-left: 10px;
 	font-size: 30px;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 400;
+}
+.rodapeContainer-p{
+	width: 50%;
+	padding: 0;
+	margin:0;
 }
 .rodape-social{
-	margin-right: 20px;
+	margin-right: 10px;
 	margin-top: 30px;
 }
 .social-icon{
@@ -145,38 +156,54 @@ body{
 	height: 50px;
 	background: rgba(255,255,255,0.9);
 }
+
 /*CONTATOS*/
+
+
 .cabecalhoContatos{
 	background:#8b0000;
 	margin: 0;
 }
 .principal{
 	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
 	background:#8b0000;
-	justify-content: space-around;
 }
 .container-loc{
+	display: flex;
+	justify-content:center;
+	align-items:flex-start;
+	flex-direction: column;
 	color: #fff;
-	font-size: 45px;
+	font-size: 35px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
+	width: 50%;
+	min-width: 400px;
 }
 .logo-loc{
 	height: 100px;
 	width:100px;
 }
-.container-h1{
+.container-contatos{
 	display: flex;
 	justify-content: center;
-	margin-left: 100px;
+	flex-flow: row wrap;
+	width: 50%;
+	min-width: 400px;	
+	
+}
+.containerContatos-h1{
 	font-family: 'Open Sans', sans-serif;
+	color: #fff;
 	font-weight: 400;
 	font-size: 50px;
 
 }
 .container-form{
 	color:#fff;
-	font-size: 35px;
+	font-size: 30px;
 	margin-bottom: 30px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -200,6 +227,8 @@ body{
 	align-items: flex-start;
 	background:#8b0000;
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
 .contatosRodape-p{
 	font-size: 45px;
@@ -215,4 +244,40 @@ body{
 }
 .containerRodape{
 
+}
+
+/*GALERIA*/
+
+
+.cabecalhoGaleria {
+	background:#000;
+	margin:0;
+}
+.galeria-titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	margin:0 30px;
+}
+.containerGaleria-fotos{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.galeria-item{
+	height: 200px;
+	margin:15px;
+}
+.rodape-galeria{
+
+	color: #fff;
+	background:#000;
+}
+@media (max-width: 640px){
+	.container-texto{
+		display: none;
+	}
 }
